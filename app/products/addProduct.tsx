@@ -36,7 +36,7 @@ const AddProduct = ({ brands }: { brands: Brand[] }) => {
   return (
     <div>
       <button className="btn" onClick={handleModal}>
-        Add New
+        Added New
       </button>
 
       <div className={isOpen ? "modal modal-open" : "modal"}>
